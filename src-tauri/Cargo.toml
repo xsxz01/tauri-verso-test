@@ -19,7 +19,7 @@ tauri-build = { version = "2", features = [] }
 tauri-runtime-verso-build = { git = "https://github.com/versotile-org/tauri-runtime-verso.git" }
 
 [dependencies]
-tauri = { version = "2", default-features = false, features = ["common-controls-v6"] }
+tauri = { version = "2", default-features = false, features = ["common-controls-v6", "devtools"] }
 tauri-runtime-verso = { git = "https://github.com/versotile-org/tauri-runtime-verso.git" }
 tauri-plugin-opener = "2"
 serde = { version = "1", features = ["derive"] }
